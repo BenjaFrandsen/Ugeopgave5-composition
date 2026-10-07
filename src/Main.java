@@ -39,6 +39,8 @@ public class Main {
         animals.add(new Wolf("Problem Ulv", 100));
         animals.add(new Rabbit("Adolf", 150));
 
+        //Fjern for loop hele vejen til print winner og lav det til en metode i contest. Lav samlet 3 battles, b1, b2 og b1 + b2 winners
+        
         for (int i = 0; i < animals.size() - 2; i +=2) {
             Animal a = animals.get(i);
             Animal b = animals.get(i + 1);
