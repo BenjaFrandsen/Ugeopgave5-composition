@@ -39,7 +39,7 @@ public class Main {
         animals.add(new Wolf("Problem Ulv", 100));
         animals.add(new Rabbit("Adolf", 150));
 
-        for (int i = 0; i < animals.size() - 1; i ++) {
+        for (int i = 0; i < animals.size() - 2; i +=2) {
             Animal a = animals.get(i);
             Animal b = animals.get(i + 1);
 
